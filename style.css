@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #fff;
+}
+.dark-theme {
+  --primary-color: #1f1f1f;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background: var(--primary-color);
+}
+
+.container img {
+  width: 30px;
+  position: relative;
+  top: 10px;
+  right: 30px;
+
+  cursor: pointer;
+  background-color: #fff;
+}
